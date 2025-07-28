@@ -8,6 +8,17 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "<h1>Hello Kaushik!</h1>";
+        return "<h1>Spring Security - Hello Kaushik!</h1>";
     }
+
+    @GetMapping("/user")
+    public String user() {
+        return "<h1>Spring Security - Hello User!</h1>";
+    }
+
+    @GetMapping("/admin")
+    public String admin() {
+        return "<h1>Spring Security - Hello Admin!</h1>";
+    }
+
 }
