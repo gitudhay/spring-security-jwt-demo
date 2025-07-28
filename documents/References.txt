@@ -1,0 +1,17 @@
+Spring Deprecated supported Doc Links :
+---------------------------------------
+
+Spring Security without the WebSecurityConfigurerAdapter :
+https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter
+
+Security Filter Chain :
+https://docs.spring.io/spring-security/reference/5.8/migration/servlet/config.html
+
+HttpSecurity :
+https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter
+
+
+NOTE :
+------
+In the SecurityFilterChain (consists of multiple filters) the authenticated object holding
+the principal (user logged-in details) is stored in ThreadLocal, it will be used in subsequent requests.
