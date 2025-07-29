@@ -14,4 +14,11 @@ https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigu
 NOTE :
 ------
 In the SecurityFilterChain (consists of multiple filters) the authenticated object holding
-the principal (user logged-in details) is stored in ThreadLocal, it will be used in subsequent requests.
+the principal (userEntityIn logged-in details) is stored in ThreadLocal, it will be used in subsequent requests.
+
+
+For Spring Security with JPA - DBCR :
+-------------------------------------
+INSERT INTO users (id, active, password, roles, username) VALUES (1, true, 'foouser', 'ROLE_USER', 'user1');
+INSERT INTO users (id, active, password, roles, username) VALUES (2, true, 'foouser1', 'ROLE_USER', 'user2');
+INSERT INTO users (id, active, password, roles, username) VALUES (3, true, 'fooadmin', 'ROLE_USER,ROLE_ADMIN', 'admin');
