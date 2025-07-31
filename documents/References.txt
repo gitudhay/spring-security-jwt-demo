@@ -22,3 +22,5 @@ For Spring Security with JPA - DBCR :
 INSERT INTO users (id, active, password, roles, username) VALUES (1, true, 'foouser', 'ROLE_USER', 'user1');
 INSERT INTO users (id, active, password, roles, username) VALUES (2, true, 'foouser1', 'ROLE_USER', 'user2');
 INSERT INTO users (id, active, password, roles, username) VALUES (3, true, 'fooadmin', 'ROLE_USER,ROLE_ADMIN', 'admin');
+
+NOTE: Refer - ReadMe.md file for the latest changes.
